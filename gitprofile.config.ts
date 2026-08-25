@@ -40,7 +40,7 @@ const CONFIG = {
         {
           title: 'Othello',
           description:
-            'On-chain implementation of the classic Othello/Reversi board game on Ethereum, featuring an ELO-based matchmaking system and a staking mechanism where players wager ETH on matches.',
+            'Fully on-chain Othello game on Somnia Shannon testnet. Features sub-second finality, bitboard-enforced game logic, YYG-staked wagering, 4 production contracts (YinYang ERC-20 wrapper, OthelloGame, OthelloELO with PRBMath fixed-point, OthelloTreasury with 30-day seasons), and a React 19 + Vite frontend with MetaMask, alpha-beta AI opponent, and seasonal leaderboard.',
           imageUrl:
             'https://opengraph.githubassets.com/1/Copernicium282/Othello',
           link: 'https://github.com/Copernicium282/Othello',
@@ -48,7 +48,7 @@ const CONFIG = {
         {
           title: 'Caesar',
           description:
-            'A self-sovereign, on-chain password manager built on Ethereum. Encrypts and stores passwords as IPFS CIDs in a smart contract, so only the wallet owner can ever decrypt them.',
+            'Self-sovereign password manager where the encrypted vault never leaves the user\'s machine. Uses Argon2id key derivation, AES-256-GCM vault encryption, a 34-command CLI, 36-endpoint local HTTPS server, a signed Firefox/Zen extension with autofill & TOTP, and multi-device sync via Helia IPFS with vault hash + CID committed to Ethereum Sepolia for tamper-evident verification.',
           imageUrl:
             'https://opengraph.githubassets.com/1/Copernicium282/Caesar',
           link: 'https://github.com/Copernicium282/Caesar',
@@ -83,8 +83,10 @@ const CONFIG = {
     'Solidity',
     'TypeScript',
     'JavaScript',
+    'Python',
     'C',
     'C++',
+    'HTML/CSS',
     'React',
     'Vite',
     'ethers.js',
@@ -98,8 +100,11 @@ const CONFIG = {
     'Supabase',
     'MongoDB',
     'Docker',
-    'IPFS',
+    'Helia IPFS',
+    'thirdweb',
+    'Anthropic SDK',
     'Ethereum',
+    'GitHub Actions',
   ],
   certifications: [
     {
