@@ -34,23 +34,19 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'My Personal Favourite Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
           title: 'Othello',
           description:
             'Fully on-chain Othello game on Somnia Shannon testnet. Features sub-second finality, bitboard-enforced game logic, YYG-staked wagering, 4 production contracts (YinYang ERC-20 wrapper, OthelloGame, OthelloELO with PRBMath fixed-point, OthelloTreasury with 30-day seasons), and a React 19 + Vite frontend with MetaMask, alpha-beta AI opponent, and seasonal leaderboard.',
-          imageUrl:
-            'https://opengraph.githubassets.com/1/Copernicium282/Othello',
           link: 'https://github.com/Copernicium282/Othello',
         },
         {
           title: 'Caesar',
           description:
             'Self-sovereign password manager where the encrypted vault never leaves the user\'s machine. Uses Argon2id key derivation, AES-256-GCM vault encryption, a 34-command CLI, 36-endpoint local HTTPS server, a signed Firefox/Zen extension with autofill & TOTP, and multi-device sync via Helia IPFS with vault hash + CID committed to Ethereum Sepolia for tamper-evident verification.',
-          imageUrl:
-            'https://opengraph.githubassets.com/1/Copernicium282/Caesar',
           link: 'https://github.com/Copernicium282/Caesar',
         },
       ],
@@ -83,7 +79,6 @@ const CONFIG = {
     'Solidity',
     'TypeScript',
     'JavaScript',
-    'Python',
     'C',
     'C++',
     'HTML/CSS',
@@ -117,19 +112,19 @@ const CONFIG = {
       name: 'Agents and Workflows',
       body: 'OpenAI',
       year: 'June 2026',
-      link: 'https://academy.openai.com',
+      link: 'https://academy.openai.com/public/certificate/wcogeh2xgz',
     },
     {
       name: 'Applied AI Foundations',
       body: 'OpenAI',
       year: 'June 2026',
-      link: 'https://academy.openai.com',
+      link: 'https://academy.openai.com/public/certificate/7bt3418p25',
     },
     {
       name: 'Building with the Claude API',
       body: 'Anthropic',
       year: 'June 2026',
-      link: 'https://www.anthropic.com',
+      link: 'https://verify.skilljar.com/c/y857x85rfi9j',
     },
     {
       name: 'Foundry Fundamentals',
