@@ -36,7 +36,24 @@ const CONFIG = {
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
-      projects: [],
+      projects: [
+        {
+          title: 'Othello',
+          description:
+            'On-chain implementation of the classic Othello/Reversi board game on Ethereum, featuring an ELO-based matchmaking system and a staking mechanism where players wager ETH on matches.',
+          imageUrl:
+            'https://opengraph.githubassets.com/1/Copernicium282/Othello',
+          link: 'https://github.com/Copernicium282/Othello',
+        },
+        {
+          title: 'Caesar',
+          description:
+            'A self-sovereign, on-chain password manager built on Ethereum. Encrypts and stores passwords as IPFS CIDs in a smart contract, so only the wallet owner can ever decrypt them.',
+          imageUrl:
+            'https://opengraph.githubassets.com/1/Copernicium282/Caesar',
+          link: 'https://github.com/Copernicium282/Caesar',
+        },
+      ],
     },
   },
   seo: { title: 'Portfolio of Amit Prasad', description: '', imageURL: '' },
@@ -84,7 +101,56 @@ const CONFIG = {
     'IPFS',
     'Ethereum',
   ],
-  certifications: [],
+  certifications: [
+    {
+      name: 'Docker Training Course for the Absolute Beginner',
+      body: 'KodeKloud',
+      year: 'July 2026',
+      link: 'https://kodekloud.com/certificate-verification/2a05c853-8718-4954-b15b-510380dc59f0',
+    },
+    {
+      name: 'Agents and Workflows',
+      body: 'OpenAI',
+      year: 'June 2026',
+      link: 'https://academy.openai.com',
+    },
+    {
+      name: 'Applied AI Foundations',
+      body: 'OpenAI',
+      year: 'June 2026',
+      link: 'https://academy.openai.com',
+    },
+    {
+      name: 'Building with the Claude API',
+      body: 'Anthropic',
+      year: 'June 2026',
+      link: 'https://www.anthropic.com',
+    },
+    {
+      name: 'Foundry Fundamentals',
+      body: 'Cyfrin Updraft',
+      year: 'May 2026',
+      link: 'https://updraft.cyfrin.io/certificate/1AW39SUHHBLS',
+    },
+    {
+      name: 'Solidity Smart Contract Development',
+      body: 'Cyfrin Updraft',
+      year: 'May 2026',
+      link: 'https://updraft.cyfrin.io/certificate/A2LTPP93K9FA',
+    },
+    {
+      name: 'Chainlink Fundamentals',
+      body: 'Cyfrin Updraft',
+      year: 'April 2026',
+      link: 'https://updraft.cyfrin.io/certificate/CLF-K6OZX855/D4ZA',
+    },
+    {
+      name: 'Blockchain Basics',
+      body: 'Cyfrin Updraft',
+      year: 'January 2026',
+      link: 'https://updraft.cyfrin.io/certificate/BBCC-UHNCLICIIJ8X5',
+    },
+  ],
   educations: [
     {
       institution: 'IIT (ISM) Dhanbad',
