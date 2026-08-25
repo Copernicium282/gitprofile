@@ -114,7 +114,7 @@ const GitProfile = ({ config }: { config: Config }) => {
       const data = response.data;
 
       setProfile({
-        avatar: data.avatar_url,
+        avatar: `${import.meta.env.BASE_URL}profile.jpeg`,
         name: data.name || ' ',
         bio: data.bio || '',
         location: data.location || '',
