@@ -81,7 +81,16 @@ const GitProfile = ({ config }: { config: Config }) => {
         });
         const repoData = repoResponse.data;
 
-        return repoData.items;
+        const manualProjectsLower = sanitizedConfig.projects.github.manual.projects.map((p) => p.toLowerCase());
+        const sortedItems = [...repoData.items].sort((a, b) => {
+          const indexA = manualProjectsLower.indexOf(a.full_name.toLowerCase());
+          const indexB = manualProjectsLower.indexOf(b.full_name.toLowerCase());
+          if (indexA === -1) return 1;
+          if (indexB === -1) return -1;
+          return indexA - indexB;
+        });
+
+        return sortedItems;
       }
     },
     [
